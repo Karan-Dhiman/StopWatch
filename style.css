@@ -1,0 +1,116 @@
+body {
+  background: url("images/paul-pastourmatzis-KT3WlrL_bsg-unsplash.jpg")
+    no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  padding: 20px;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+#header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+#header:hover {
+  background: #ffffff33;
+  color: #1a1a1a;
+  text-shadow: 3px 3px 15px rgba(255, 255, 255, 0.8);
+  transform: scale(1.05);
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  background-color: rgba(196, 196, 196, 0.144);
+  box-shadow: 0px 0px 10px #000;
+  transition: 0.5s box-shadow ease-in-out;
+}
+
+#container:hover {
+  box-shadow: 0px 0px 20px #fff;
+  transition: 0.4s box-shadow ease-in-out;
+}
+
+#display {
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: #d3d3d3;
+  text-shadow: 2px 2px 2px #414141;
+  margin-bottom: 25px;
+}
+
+#controls button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  min-width: 125px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  color: #fff;
+  box-shadow: 0px 0px 10px #000;
+}
+#controls button:hover {
+  box-shadow: 0px 0px 20px #000;
+  transition: box-shadow 0.4s ease-in-out;
+}
+
+#startBtn {
+  background-color: #ace1af;
+  transition: background-color 0.3s ease-in;
+}
+
+#startBtn:hover {
+  background-color: rgb(136, 227, 0);
+  color: #000;
+  transition: color 0.3s ease-in-out;
+}
+
+#stopBtn {
+  background-color: #e6a4b4;
+  transition: background-color 0.3s ease-in;
+}
+
+#stopBtn:hover {
+  background-color: #ec2657;
+  color: #000;
+  transition: color 0.3s ease-in-out;
+}
+
+#resetBtn {
+  background-color: #5d91ff;
+  transition: background-color 0.3s ease-in;
+}
+
+#resetBtn:hover {
+  background-color: #2369fe;
+  color: #fff;
+  transition: color 0.3s ease-in-out;
+}
